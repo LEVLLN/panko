@@ -1,0 +1,21 @@
+---
+source: src/lib.rs
+expression: tokens
+---
+[
+    Symbol(
+        "😀",
+    ),
+    Word(
+        "some",
+    ),
+    Symbol(
+        "_",
+    ),
+    Word(
+        "str",
+    ),
+    Symbol(
+        "😀",
+    ),
+]

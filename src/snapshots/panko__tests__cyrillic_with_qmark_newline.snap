@@ -1,0 +1,25 @@
+---
+source: src/lib.rs
+expression: tokens
+---
+[
+    Word(
+        "хлеб",
+    ),
+    Symbol(
+        " ",
+    ),
+    Word(
+        "кто",
+    ),
+    Symbol(
+        " ",
+    ),
+    Word(
+        "булочка",
+    ),
+    Symbol(
+        "?",
+    ),
+    Newline,
+]

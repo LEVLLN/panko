@@ -1,0 +1,39 @@
+---
+source: src/lib.rs
+expression: tokens
+---
+[
+    Newline,
+    Word(
+        "some",
+    ),
+    Symbol(
+        "_",
+    ),
+    Word(
+        "str",
+    ),
+    Newline,
+    Symbol(
+        " ",
+    ),
+    Newline,
+    Symbol(
+        " ",
+    ),
+    Word(
+        "some",
+    ),
+    Symbol(
+        "_",
+    ),
+    Word(
+        "another",
+    ),
+    Symbol(
+        "_",
+    ),
+    Word(
+        "str",
+    ),
+]
